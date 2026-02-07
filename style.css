@@ -19,6 +19,15 @@ th, td {
     width: 20%;
 }
 
-#12  {
-    background-color: red;
+td {
+    position: relative;
+    overflow: hidden;
+}
+
+.scratch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
