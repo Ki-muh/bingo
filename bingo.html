@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bingo</title>
     <link rel="stylesheet" href="style.css">
-    <script src="bingo.js"></script>
+    <script src="bingo.js" ></script>
 </head>
 <body>
     <h1>Bingo Card</h1>
@@ -17,35 +17,37 @@
             <th>G</th>
             <th>O</th>
         </tr>
-        <tr>
+        <tr id="1">
+            <!-- &nbsp creates non-breaking space in html -->
             <td id="sq-0">&nbsp;</td>
             <td id="5">&nbsp;</td>
             <td id="10">&nbsp;</td>
             <td id="15">&nbsp;</td>
             <td id="20">&nbsp;</td>
         </tr>
-        <tr>
+        <tr id="2">
             <td id="sq-1">&nbsp;</td>
             <td id="sq-6">&nbsp;</td>
             <td id="sq-11">&nbsp;</td>
             <td id="sq-16">&nbsp;</td>
             <td id="sq-21">&nbsp;</td>
         </tr>
-        <tr>
+        <tr id="3">
+            <!-- the mid cell, id="12" should be free -->
             <td id="sq-2">&nbsp;</td>
             <td id="sq-7">&nbsp;</td>
-            <td id="sq-12">&nbsp;</td>
+            <td id="sq-12">Free</td>
             <td id="sq-17">&nbsp;</td>
             <td id="sq-22">&nbsp;</td>
         </tr>
-        <tr>
+        <tr id="4">
             <td id="sq-3">&nbsp;</td>
             <td id="sq-8">&nbsp;</td>
             <td id="sq-13">&nbsp;</td>
             <td id="sq-18">&nbsp;</td>
             <td id="sq-23">&nbsp;</td>
         </tr>
-        <tr>
+        <tr id="5">
             <td id="sq-4">&nbsp;</td>
             <td id="sq-9">&nbsp;</td>
             <td id="sq-14">&nbsp;</td>
@@ -53,5 +55,6 @@
             <td id="sq-24">&nbsp;</td>
         </tr>
     </table>
+    <button><a href="bingo.html" id="reload">New Card</a></button>
 </body>
 </html>
